@@ -1,5 +1,10 @@
 body{
-    font-size: 16px;
     font-family: sans-serif;
-    background-color: teal;
+    background: url('https://cdn.discordapp.com/attachments/824143307923259415/845314909705469962/backgroundquiz.jpg');
+}
+#title{
+    font-family: Architects Daughter; font-size: 100px; color: white; background-color: #acacacaf;"
+}
+#choose{
+    height: 350px;
 }
