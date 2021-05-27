@@ -3,8 +3,94 @@ body{
     background: url('https://cdn.discordapp.com/attachments/824143307923259415/845314909705469962/backgroundquiz.jpg');
 }
 #title{
-    font-family: Architects Daughter; font-size: 100px; color: white; background-color: #acacacaf;"
+    font-family: Architects Daughter; font-size: 100px; color: white; background-color: #acacacaf;
 }
 #choose{
-    height: 350px;
+    height: 320px;
+}
+
+.button-musik{
+    height: 20px;
+    width: 20px;
+}
+.headquiz{
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    line-height: 5px;
+    padding-bottom: 10px;
+    color: rgb(24, 22, 22);
+}
+#science{
+    padding: 2rem;
+    display: none;
+}
+#science .container{
+    background-color: #42d38b;
+}
+#science .question{
+    font-size: 20px;
+    font-family: Architects Daughter;
+    color: white;
+    padding: 25px 0px;
+}
+#science .answer .optional{
+    background-color: rgb(27, 34, 46);
+    padding:15px;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Architects Daughter;
+}
+
+#mathematics{
+    padding: 2rem;
+    display: none;
+}
+#mathematics .container{
+    background-color: #ffffff;
+}
+
+#mathematics .question{
+    font-size: 20px;
+    font-family: Architects Daughter;
+    color: rgb(16, 19, 66);
+    padding: 25px 0px;
+}
+#mathematics .answer .optional{
+    background-color: rgb(27, 34, 46);
+    padding:15px;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Architects Daughter;
+}
+#History{
+    padding: 2rem;
+    display: none;
+}
+#History .container{
+    background-color: 	#FF8C00;
+}
+#History .question{
+    font-size: 20px;
+    font-family: Architects Daughter;
+    color: azure;
+    padding: 25px 0px;
+}
+#History .answer .optional{
+    background-color: white;
+    padding:15px;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #1f1919;
+    font-family: Architects Daughter;
 }
