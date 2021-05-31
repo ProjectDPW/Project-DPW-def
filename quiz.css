@@ -43,6 +43,9 @@ body{
     cursor: pointer;
     color: #ffffff;
     font-family: Architects Daughter;
+        /* update add for optional */
+    position: relative;
+    overflow: hidden;
 }
 
 #mathematics{
@@ -93,4 +96,32 @@ body{
     cursor: pointer;
     color: #1f1919;
     font-family: Architects Daughter;
+}
+
+
+/* update */
+/* add color correct answer */
+#science .answer .optional.correct::before{
+    background-color: rgba(0, 192, 0, 0.849);
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* add color correct answer */
+#science .answer .optional.wrong::before{
+    background-color: rgba(197, 11, 11, 0.746);
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#science .answer .optional.already-answer{
+    pointer-events: none;
 }
