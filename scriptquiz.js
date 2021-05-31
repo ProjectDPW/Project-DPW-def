@@ -1,9 +1,8 @@
-var musik = new Audio();
-musik.src = "audio/bgmusik.mp3";
-musik.loop = true;
-musik.play();
-
-var filebaru;
+// var musik = new Audio();
+// musik.src = "audio/bgmusik.mp3";
+// musik.loop = true;
+// musik.play();
+// var filebaru;
 
 function quizscience(){
     a = document.getElementById("Start").style.display = 'none'
@@ -22,16 +21,32 @@ function quizhistory(){
 
 
 //contoh format pembuatan soal
-const science = [
+// update
+
+var soal1 = [
     {
-        q:"hallo bang",
-        Options: ["Abdul", "Samsul", "Jamal", "Budi"],
-        answer:2  // indeks jawaban
+        q:"Hewan yang bertelur disebut",
+        Options: ['ovipar',
+            'vivipar', 
+            'ovovivipar',
+            'vipar'],
+        answer:0  // indeks jawaban
     },
     {
-        q:"hallo bang",
-        Options: ["Abdul", "Samsul", "Jamal", "Budi"],
-        answer:2  // indeks jawaban
-    }
-    // lanjut
+        q:"Tumbuhan membuat makanan dengan bantuan ?",
+        Options: ['Angin',
+            'Matahari', 
+            'Bulan',
+            'Udara'],
+        answer:1  // indeks jawaban
+    },
+    {
+        q:"H20 adalah sebutan senyawa dari?",
+        Options: ['Tanah ',
+            'Api', 
+            'Udara',
+            'Air'],
+        answer:3  // indeks jawaban
+    },
 ]
+
