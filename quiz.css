@@ -33,6 +33,21 @@ body{
     color: white;
     padding: 25px 0px;
 }
+
+/* update */
+/* add css Result */
+#skor{
+    display: none;
+    padding: 2rem;
+    
+}
+#skor .container{
+    background-color: #48ddd1;
+    padding: 2rem;
+}
+#result{
+    font-family: Architects Daughter; font-size: 100px; color: black;;
+}
 #science .answer .optional{
     background-color: rgb(27, 34, 46);
     padding:15px;
