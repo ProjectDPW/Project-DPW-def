@@ -62,7 +62,7 @@ function getResult(element){
         element.classList.add("correct");
 
         correctanswer++;
-        console.log("Correct: "+correctanswer);
+//         console.log("Correct: "+correctanswer);
     }
     else{
         // console.log("wrong");
@@ -76,7 +76,7 @@ function getResult(element){
         }
     }
     attemp++;
-    console.log('attemp: '+attemp)
+//     console.log('attemp: '+attemp)
 
     unclickOptions();
 }
@@ -111,6 +111,28 @@ function quizResult(){
     document.getElementById("benar").innerHTML=correctanswer;
     document.getElementById("salah").innerHTML=lensoal1-correctanswer;
     // console.log("quizResult")
+}
+
+// Update
+function resetQuiz(){
+    questcount=0;
+    correctanswer=0;
+    attemp=0;
+}
+
+function tryAgain(){
+    document.getElementById("skor").style.display = 'none';
+    // document.getElementById("Start").style.display = 'none';
+    document.getElementById("science").style.display = 'block';
+    resetQuiz()
+    window.onload();
+}
+
+function goToHome(){
+    document.getElementById("skor").style.display = 'none';
+    document.getElementById("Start").style.display = 'block';
+    resetQuiz();
+    window.onload();
 }
 
 window.onload = function(){
