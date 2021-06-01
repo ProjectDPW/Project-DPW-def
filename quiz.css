@@ -1,6 +1,7 @@
 body{
     font-family: sans-serif;
     background: url('https://cdn.discordapp.com/attachments/824143307923259415/845314909705469962/backgroundquiz.jpg');
+    background-attachment: fixed;
 }
 #title{
     font-family: Architects Daughter; font-size: 100px; color: white; background-color: #acacacaf;
@@ -28,12 +29,22 @@ body{
     background-color: #42d38b;
 }
 #science .question{
-    font-size: 20px;
+    font-size: 25px;
     font-family: Architects Daughter;
     color: white;
     padding: 25px 0px;
 }
-
+#science #timer1{
+    background-color: rgb(205, 92, 92);
+    width: 150px;
+    border-radius: 5px;
+    font-size: 50px;
+    font-family: Architects Daughter;
+    text-align: center;
+    color: white;
+    margin: auto;
+    padding: 25px 0px;
+}
 /* update */
 /* add css Result */
 #skor{
@@ -48,10 +59,17 @@ body{
 #result{
     font-family: Architects Daughter; font-size: 100px; color: black;;
 }
+#benar{
+    font-size: 50px;
+}
+#salah{
+    font-size: 50px;
+}
+
 #science .answer .optional{
     background-color: rgb(27, 34, 46);
     padding:15px;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 22px;
     border-radius: 5px;
     margin-bottom: 20px;
