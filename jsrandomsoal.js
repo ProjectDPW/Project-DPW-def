@@ -21,6 +21,28 @@ function setavailablequest(){
     }
 }
 
+//  Update(lagi) Timer
+var counter = 10;
+var setInt = 1000;
+var int1;
+
+function update_display(){		
+    if(counter>=0){
+        document.getElementById("timer1").innerHTML = counter;
+        counter--;
+    }
+    else{
+        // clearInterval(int1);
+        nextsains();
+    }
+}
+
+function update_display_call(){
+    clearInterval(int1);
+    int1 = setInterval(update_display, setInt);
+    // console.log("int1= "+int1)
+}
+
 function getNewquest(){
     const questionindex= availablequest[Math.floor(Math.random() * availablequest.length)]
     currentquest=questionindex
@@ -53,6 +75,9 @@ function getNewquest(){
         option.setAttribute("onclick", "getResult(this)");
     }
     questcount++
+    //update lagi timer
+    counter = 10; 
+    update_display_call();
 }
 
 function getResult(element){
@@ -96,6 +121,8 @@ function nextsains(){
     else{
         getNewquest();
     }
+    //update (lagi) timer
+    counter=10;
 }
 
 function quizOver(){
