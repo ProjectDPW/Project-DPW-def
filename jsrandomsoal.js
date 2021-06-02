@@ -22,7 +22,7 @@ function setavailablequest(){
 }
 
 //  Update(lagi) Timer
-var counter = 10;
+var counter = 30;
 var setInt = 1000;
 var int1;
 
@@ -76,7 +76,7 @@ function getNewquest(){
     }
     questcount++
     //update lagi timer
-    counter = 10; 
+    counter = 30; 
     update_display_call();
 }
 
@@ -122,7 +122,7 @@ function nextsains(){
         getNewquest();
     }
     //update (lagi) timer
-    counter=10;
+    counter=30;
 }
 
 function quizOver(){
