@@ -81,56 +81,6 @@ body{
     overflow: hidden;
 }
 
-#mathematics{
-    padding: 2rem;
-    display: none;
-}
-#mathematics .container{
-    background-color: #ffffff;
-}
-
-#mathematics .question{
-    font-size: 20px;
-    font-family: Architects Daughter;
-    color: rgb(16, 19, 66);
-    padding: 25px 0px;
-}
-#mathematics .answer .optional{
-    background-color: rgb(27, 34, 46);
-    padding:15px;
-    font-size: 18px;
-    line-height: 22px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    color: #ffffff;
-    font-family: Architects Daughter;
-}
-#History{
-    padding: 2rem;
-    display: none;
-}
-#History .container{
-    background-color: 	#FF8C00;
-}
-#History .question{
-    font-size: 20px;
-    font-family: Architects Daughter;
-    color: azure;
-    padding: 25px 0px;
-}
-#History .answer .optional{
-    background-color: white;
-    padding:15px;
-    font-size: 18px;
-    line-height: 22px;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    color: #1f1919;
-    font-family: Architects Daughter;
-}
-
 
 /* update */
 /* add color correct answer */
