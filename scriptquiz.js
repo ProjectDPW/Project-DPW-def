@@ -1,8 +1,8 @@
-// var musik = new Audio();
-// musik.src = "audio/bgmusik.mp3";
-// musik.loop = true;
-// musik.play();
-// var filebaru;
+var musik = new Audio();
+musik.src = "audio/bgmusik.mp3";
+musik.loop = true;
+musik.play();
+var filebaru;
 
 function quizscience(){
     a = document.getElementById("Start").style.display = 'none'
